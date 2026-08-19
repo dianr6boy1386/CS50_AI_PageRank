@@ -24,9 +24,14 @@ This ensures that the random surfer can always move to another page and that the
 
 The PageRank of a page is calculated using:
 
+<p align="center">
+
 $$
 PR(p) = \frac{1-d}{N} + d \sum_{i \in I_p} \frac{PR(i)}{NumLinks(i)}
 $$
+
+</p>
+
 Where:
 
 - `PR(p)` is the PageRank of page `p`
